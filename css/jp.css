@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* en.css */
+
+html {
+	font-size:62.5% !important;
+}
+body {
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main_visual .slider li br {
+    display: inline;
+}
+.main_visual .slider li p {
+    line-height: 1.8;
+}
+.main_visual .slider li p span {
+    line-height: 3;
+}
+
+.section01 {
+    text-align: center;
+    padding:5em 0 5em;
+}
+.section01 h2 {
+    line-height: 1.8;
+}
+.section01 p {
+    line-height: 2.4;
+    font-size: 2rem;
+}
+
+.section02 h3 {
+    font-size: 3.8rem;
+}
+
+.section03 .inner {
+    padding:4em 0;
+}
+.section03 table {
+    margin: 0 auto;
+}
+.section03 table th,
+.section03 table td {
+    padding-top:0.4em;
+    padding-bottom:0.4em;
+    font-size:1.8rem;
+    letter-spacing: 1px;
+}
+
+#footer {
+    padding:3em 0;
+}
+#footer p {
+    font-size: 1.2rem;
+}
+
+
+@media screen and ( max-width:640px ) {
+
+    html {
+        font-size:2.4vw !important;
+    }
+    .main_visual .slider li p {
+        font-size:1.6rem;
+    }
+    
+    .section01 {
+        padding:5em 6.25% 5em;
+    }
+    .section01 h2 {
+        line-height: 1.8;
+    }
+    .section01 p {
+        line-height: 2.4;
+        font-size: 1.6rem;
+    }
+
+    .section02 .inner {
+        padding:4em 0;
+    }
+    .section02 h3 {
+        font-size: 2.5rem;
+    }
+
+    .section03 .inner {
+        padding:3em 6.25% 4em;
+    }
+    .section03 table {
+        margin: 0 auto;
+        width:100%;
+    }
+    .section03 table th,
+    .section03 table td {
+        padding-top:0.4em;
+        padding-bottom:0.4em;
+        font-size:1.6rem;
+        letter-spacing: 1px;
+    }
+    .section03 table th {
+        font-size:2.2rem;
+    }
+    .section03 table td:first-of-type {
+        padding:1.2em 0 0;
+        font-size:1.6rem;
+    }
+
+    #footer {
+        padding:3em 0;
+    }
+    #footer p {
+        font-size: 1.2rem;
+    }
+
+
+}
